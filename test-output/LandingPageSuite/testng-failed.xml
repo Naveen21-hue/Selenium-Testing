@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LandingPageSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LandingPageTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env" value="prod"/>
+    <classes>
+      <class name="testcases.LinkedinTestCases">
+        <methods>
+          <include name="signinValidation" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.LinkedinTestCases -->
+    </classes>
+  </test> <!-- LandingPageTest(failed) -->
+</suite> <!-- Failed suite [LandingPageSuite] -->
